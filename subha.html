@@ -69,14 +69,63 @@
     </table>
 
     <h4>HTML forms </h4>
-    <form action="backend.php">
+    <form >
         <div>
             NAME: <input type="text">
         </div>
+        <br>
         <div>
-             STUDENT CODE: <input type="text">
+            STUDENT CODE: <input type="text">
         </div>
+        <br>
+        <div>
+            SECTION: <input type="text">
+        </div>
+        <br>
+        <div>
+            email: <input type="email">
+        </div>
+        <br>
+        <div>
+            submit: <input type="submit" name="submit" value="submit now">
+        </div>
+        <br>
+        <div>
+            date: <input type="date">
+        </div>
+        <br>
+        <div>
+            number: <input type="number">
+        </div>
+        <br>
+        <div>
+            password: <input type="password">
+        </div>
+        <br>
+        <div>
+             <input type="radio" name="gender" value="male"> Male
+            <input type="radio" name="gender" value="female"> Female
+        </div>
+        <br>
+        <div>
+            are you sure?: <input type="checkbox" value="yes"> yes i am sure
+            <input type="checkbox" value="no"> no i am not sure
+        </div>
+        <br>
+        <div>
+            <label for="cars">Choose a car:</label>
+            <select name="cars" id="cars">
+                <option value="volvo">Volvo</option>
+                <option value="saab">Saab</option>
+                <option value="mercedes">Mercedes</option>
+                <option value="audi">Audi</option>
+            </select>
+        </div>
+        <br>
         
+        <div>
+            write your message: <textarea name="message" rows="4" cols="50"></textarea>
+        </div>
     </form>
 </body>
 
