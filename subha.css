@@ -69,16 +69,16 @@ transform:translateY(0);
 
 .profile{
 
-width:140px;
-height:140px;
+width: 130px;
+height:130px;
 
 border-radius:50%;
 
-border:5px solid white;
+object-fit:cover;
 
-margin-bottom:20px;
+display:block;
 
-box-shadow:0 0 25px cyan;
+margin:0 auto 20px;
 
 }
 
